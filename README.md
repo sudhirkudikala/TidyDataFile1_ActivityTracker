@@ -30,8 +30,8 @@
 - The first column is Subject Number, second column is activity
 - Remaining columns are feature names in upper case
 
-### Fifth Segment: Creates a second, independent tidy data set with the average of each variable for each activity
-                   and each subject. 
+### Fifth Segment: Creates a second, independent tidy data set with the average of each variable for each activity and each subject
+                   
 - A table the size of number of unique activities times number of unique subject is created to pupulate the average of     each combination
 - The averages table has same number of columns as the tidy data table
 - A nested for loop for the cartesian production of number of unique activities and unique subjects is initiated
