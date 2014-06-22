@@ -21,18 +21,18 @@ Code book describes the variables, the data, and any transformations or work tha
 
 ### Variables and related data transformation to tidy data:
 
-Xtrain, Xtest, Xmerge: Training Set data for 561 instances is loaded to first two variables and merged to third
+- Xtrain, Xtest, Xmerge: Training Set data for 561 instances is loaded to first two variables and merged to third
 
-ytrain, ytest, ymerge: Training labels data is loaded to first two variables and merged to third
+- ytrain, ytest, ymerge: Training labels data is loaded to first two variables and merged to third
 
-subject_train, subject_test, subjectmerge: train and test subject information is loaded and merged
+- subject_train, subject_test, subjectmerge: train and test subject information is loaded and merged
 
-features: lists the features recorded for each observation
+- features: lists the features recorded for each observation
 
-mean_std_index: Only mean features and standard deviation features are of interest. 
+- mean_std_index: Only mean features and standard deviation features are of interest. 
                 Be sure to exclude features like meanfreq like features which are not mean
 
-measurements: Shortlist the mean and standard deviation observations for 10299 records
+- measurements: Shortlist the mean and standard deviation observations for 10299 records
 
 Three data frames of interest training set, training labels, and subjects are updated with appropriate column names
 
@@ -40,14 +40,14 @@ Three data frames of interest training set, training labels, and subjects are up
 
 Task: A table the size of number of unique activities times number of unique subject is created to pupulate the average of each combination
 
-noofVariables: number of mean and standard deviation variables
+- noofVariables: number of mean and standard deviation variables
 
-Varcolumn: the column variable used in for matrix to populate averages
+- Varcolumn: the column variable used in for matrix to populate averages
 
-uniquesubjects: number of unique subjects
+- uniquesubjects: number of unique subjects
 
-unique_sub_act: An array used to accumulate all the observations for a unique combination of 
-subject and activity
+- unique_sub_act: An array used to accumulate all the observations for a unique combination of 
+  subject and activity
 
 
 
