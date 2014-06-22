@@ -1,9 +1,9 @@
 ## READ_ME
 #### This read me explains how all of the scripts work and how they are connected
 #### Background: Activity monitor data from wearable gadgets in desperate files is transformed to tidy data using R.
-                 Also the condensed measure of averages are calculated based on activity and subjects who participated
-                 in the experiment
-
+#### Purpose:  Extract, load and transform to obtain tidy data. Calculate desired averages of mean and standard devation observations
+                 
+                 
 #### Number of Script segments: 5
 
 ### First Segment: Merges the training and the test sets to create one data set.
